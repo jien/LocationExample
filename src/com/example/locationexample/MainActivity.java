@@ -184,6 +184,7 @@ public class MainActivity extends FragmentActivity implements
 
 		@Override
 		protected void onPostExecute(String result) {
+			
 //			Toast.makeText(mContext, result, Toast.LENGTH_SHORT).show();
 			mTextView.setText(result);
 		}
